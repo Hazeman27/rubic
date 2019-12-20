@@ -1,0 +1,21 @@
+:root {
+	--color-dark: #13131b;
+	--color-light: #bbc8ca;
+	
+	--font-family-solway: 'Solway', serif;
+	--font-family-fira: 'Fira Mono', monospace;
+}
+
+body {
+	background-color: var(--color-dark);
+	color: var(--color-light);
+	font-family: var(--font-family-fira);
+}
+
+h1, h2, h3, blockquote {
+	font-family: var(--font-family-solway);
+}
+
+footer {
+	opacity: .5;
+}
